@@ -22,7 +22,7 @@ const Main = () => {
             return; //component to render;
           }}
         />
-        <Redirect to="/movies" />
+        <Redirect to="/home" />
       </Switch>
     </div>
   );

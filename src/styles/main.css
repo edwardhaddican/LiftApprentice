@@ -22,13 +22,19 @@ body {
 /* NavBar */
 
 .nav_bar_container {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 1rem;
-  padding: 0.5rem;
+  padding: 14px 16px;
   background-color: #0353a4;
 }
+
 .nav_item {
+  display: inline-block;
+  margin-right: 1rem;
   color: white;
   text-decoration: none;
+
 }
 .searchbar_container {
   border: 1px solid black;
@@ -37,6 +43,11 @@ body {
 
 .header {
   margin-left: 1rem;
+}
+
+a:hover {
+  background-color: red;
+  color: black;
 }
 
 /* SearchBar*/
